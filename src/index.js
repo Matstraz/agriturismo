@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "../src/utilities/i18n.js";
+import "../src/components/utilities/i18n";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

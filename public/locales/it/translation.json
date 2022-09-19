@@ -1,3 +1,10 @@
 {
-  "title": "Ben fatto"
+  "homepage": {
+    "navbar": {
+      "home": "Home",
+      "contactUs": "Contatti",
+      "aboutUs": "Chi siamo",
+      "gallery": "Galleria"
+    }
+  }
 }

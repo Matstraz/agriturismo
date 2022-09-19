@@ -1,3 +1,10 @@
 {
-  "title": "Well done"
+  "homepage": {
+    "navbar": {
+      "home": "Home",
+      "contactUs": "Contatcs",
+      "aboutUs": "About us",
+      "gallery": "Gallery"
+    }
+  }
 }
