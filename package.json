@@ -9,9 +9,13 @@
     "aphrodite": "^2.4.0",
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.1.11",
+    "i18next": "^21.9.2",
+    "i18next-browser-languagedetector": "^6.1.5",
+    "i18next-http-backend": "^1.4.1",
     "react": "^18.2.0",
     "react-animations": "^1.0.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.6",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
