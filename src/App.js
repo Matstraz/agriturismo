@@ -1,4 +1,6 @@
 /* import { useTranslation } from "react-i18next"; */
+import { Route, Routes } from "react-router";
+import Gallery from "./components/gallery/Gallery";
 import Homepage from "./components/homepage/Homepage";
 
 /* import i18n from "./components/utilities/i18n"; */
@@ -11,9 +13,10 @@ function App() {
   } */
 
   return (
-    <div>
-      <Homepage />
-    </div>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/gallery" element={<Gallery />} />
+    </Routes>
   );
 }
 

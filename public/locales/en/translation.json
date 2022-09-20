@@ -6,5 +6,10 @@
       "aboutUs": "About us",
       "gallery": "Gallery"
     }
+  },
+  "gallery": {
+    "pic1Description": "pic1Description",
+    "pic2Description": "pic2Description",
+    "pic3Description": "pic3Description"
   }
 }
