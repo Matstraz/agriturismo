@@ -1,11 +1,16 @@
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCommentSms, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCommentSms,
+  faEnvelope,
+  faMapLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function MainFooter() {
   const emailIcon = <FontAwesomeIcon icon={faEnvelope} />;
   const whatsappIcon = <FontAwesomeIcon icon={faCommentSms} />;
+  const mapIcon = <FontAwesomeIcon icon={faMapLocationDot} />;
   const { t } = useTranslation();
 
   return (
@@ -27,7 +32,7 @@ export default function MainFooter() {
               </p>
             </div>
           </div>
-          <div className="flex border-t-2 border-slate-200 lg:border-0 pt-5 lg:pt-0 lg:items-center md:justify-start justify-center">
+          <div className="flex border-t-2 border-slate-200 lg:border-0 pt-5 lg:pt-0 md:justify-start justify-center">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase underline">
                 {t("homepage.footer.contacts")}
@@ -38,9 +43,17 @@ export default function MainFooter() {
                     {emailIcon} E-mail
                   </a>
                 </li>
-                <li className="hover:text-gray-900">
+                <li className="mb-4 hover:text-gray-900">
                   <a href=".." className="hover:underline">
                     {whatsappIcon} WhatsApp
+                  </a>
+                </li>
+                <li className="hover:text-gray-900">
+                  <a
+                    href="https://goo.gl/maps/VmuDSoa3HffvQcCy6"
+                    className="hover:underline"
+                  >
+                    {mapIcon} {t("homepage.footer.map")}
                   </a>
                 </li>
               </ul>
