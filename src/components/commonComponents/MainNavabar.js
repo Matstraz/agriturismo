@@ -25,7 +25,7 @@ export default function MainNavbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="py-1 mx-auto w-full px-5 flex justify-between text-slate-100 bg-slate-500">
+    <div className="py-1 mx-auto w-full px-5 flex justify-between text-slate-200 bg-slate-500">
       <div className="flex justify-items-center items-center">
         <img src={logo} alt="logo" width={200} height={200} />
       </div>
@@ -46,8 +46,8 @@ export default function MainNavbar() {
             </a>
           </li>
           <li>
-            <a href="/about" title="about" className=" hover:text-slate-900">
-              {t("homepage.navbar.aboutUs")}
+            <a href="#social" title="about" className=" hover:text-slate-900">
+              {t("homepage.navbar.social")}
             </a>
           </li>
           <li>
@@ -123,12 +123,12 @@ export default function MainNavbar() {
                 </div>
               </div>
               <nav>
-                <ul className="space-y-4 text-slate-100">
+                <ul className="space-y-4 text-slate-200">
                   <li>
                     <a
                       href="/"
                       title="Home"
-                      className=" hover:text-slate-900 border-b-2 border-slate-100"
+                      className=" hover:text-slate-900 border-b-2 border-slate-200"
                     >
                       {t("homepage.navbar.home")}
                     </a>
@@ -137,25 +137,25 @@ export default function MainNavbar() {
                     <a
                       href="/gallery"
                       title="gallery"
-                      className=" hover:text-slate-900 border-b-2 border-slate-100"
+                      className=" hover:text-slate-900 border-b-2 border-slate-200"
                     >
                       {t("homepage.navbar.gallery")}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/about"
-                      title="about"
-                      className=" hover:text-slate-900 border-b-2 border-slate-100"
+                      href="#social"
+                      title="social"
+                      className=" hover:text-slate-900 border-b-2 border-slate-200"
                     >
-                      {t("homepage.navbar.aboutUs")}
+                      {t("homepage.navbar.social")}
                     </a>
                   </li>
                   <li>
                     <a
                       href="/contact"
                       title="contactUs"
-                      className=" hover:text-slate-900 border-b-2 border-slate-100"
+                      className=" hover:text-slate-900 border-b-2 border-slate-200"
                     >
                       {t("homepage.navbar.contactUs")}
                     </a>

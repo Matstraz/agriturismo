@@ -2,9 +2,20 @@
   "homepage": {
     "navbar": {
       "home": "Home",
-      "contactUs": "Contatti",
-      "aboutUs": "Chi siamo",
+      "contactUs": "Contattaci",
+      "social": "Social",
       "gallery": "Galleria"
+    },
+    "footer": {
+      "contacts": "CONTATTI",
+      "legal": "INFORMAZIONI LEGALI",
+      "privacy": "Privacy Policy",
+      "terms": "Termmini e Condizioni"
     }
+  },
+  "gallery": {
+    "pic1Description": "pic1Description",
+    "pic2Description": "pic2Description",
+    "pic3Description": "pic3Description"
   }
 }

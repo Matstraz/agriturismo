@@ -2,9 +2,15 @@
   "homepage": {
     "navbar": {
       "home": "Home",
-      "contactUs": "Contatcs",
-      "aboutUs": "About us",
+      "contactUs": "Contact Us",
+      "social": "Social",
       "gallery": "Gallery"
+    },
+    "footer": {
+      "contacts": "CONTACTS",
+      "legal": "LEGAL",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
     }
   },
   "gallery": {

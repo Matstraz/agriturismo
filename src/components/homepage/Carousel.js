@@ -6,8 +6,13 @@ import cavallo3 from "../../assets/cavallo3.jpg";
 export default function CarouselHome() {
   return (
     <div>
-      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 opacity-60 relative">
-        <Carousel slideInterval={3500}>
+      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 opacity-60 relative bg-slate-900">
+        <Carousel
+          slideInterval={3500}
+          indicators={false}
+          leftControl=" "
+          rightControl=" "
+        >
           <img src={cavallo1} alt="..." />
           <img src={cavallo2} alt="..." />
           <img src={cavallo3} alt="..." />

@@ -10,7 +10,7 @@ export default function Hero() {
     _ref.current.classList.add(`${css(styles.fadeInLeft)}`);
   }
   return (
-    <div className="bg-gradient-to-t from-slate-700 to-slate-400 w-full text-slate-100">
+    <div className="bg-gradient-to-t from-slate-700 to-slate-400 w-full text-slate-100 ">
       <p>xd</p>
       <p>xd</p>
       <p>xd</p>
