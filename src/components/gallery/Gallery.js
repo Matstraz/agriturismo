@@ -12,22 +12,16 @@ export default function Gallery() {
     {
       original: `${photo1}`,
       thumbnail: `${photo1}`,
-      thumbnailClass: "pb-0",
-
       description: `${t("gallery.pic1Description")}`,
     },
     {
       original: `${photo2}`,
       thumbnail: `${photo2}`,
-      thumbnailClass: "pb-0",
-
       description: `${t("gallery.pic2Description")}`,
     },
     {
       original: `${photo3}`,
       thumbnail: `${photo3}`,
-      thumbnailClass: "pb-0",
-
       description: `${t("gallery.pic3Description")}`,
     },
   ];

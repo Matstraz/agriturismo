@@ -1,14 +1,14 @@
 import { StyleSheet } from "aphrodite";
-import { bounce, fadeInRight, tada } from "react-animations";
+import { fadeInRight, fadeInLeft, tada } from "react-animations";
 
 const styles = StyleSheet.create({
-  bounce: {
-    animationName: bounce,
-    animationDuration: "1s",
-  },
   fadeInRight: {
     animationName: fadeInRight,
     animationDuration: "1s",
+  },
+  fadeInLeft: {
+    animationName: fadeInLeft,
+    animationDuration: "0.5s",
   },
   tada: {
     animationName: tada,
