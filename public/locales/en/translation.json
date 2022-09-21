@@ -5,6 +5,7 @@
       "contactUs": "Contact Us",
       "social": "Social",
       "gallery": "Gallery",
+      "booking": "Book Now",
       "contactUsModal": {
         "title": "Please leave your message here and we will get back to you as soon as possible",
         "name": "Your name",
@@ -12,7 +13,8 @@
         "email": "Your email",
         "message": "Your message",
         "close": "Close",
-        "send": "Send Message"
+        "send": "Send Message",
+        "alert": "Your message was sent successfully"
       }
     },
     "footer": {

@@ -52,6 +52,15 @@ export default function MainNavbar() {
             </a>
           </li>
           <li>
+            <a
+              href="https://www.booking.com/hotel/it/le-fontanelle-castel-del-rio.it.html"
+              title="booking"
+              className=" hover:text-slate-900"
+            >
+              {t("homepage.navbar.booking")}
+            </a>
+          </li>
+          <li>
             <div>
               <ContactUsModal />
 

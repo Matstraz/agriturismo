@@ -5,6 +5,7 @@
       "contactUs": "Contattaci",
       "social": "Social",
       "gallery": "Galleria",
+      "booking": "Pronota Ora",
       "contactUsModal": {
         "title": "Lasciate qui il vostro messaggio e verrete ricontattati al più presto",
         "name": "Nome",
@@ -12,7 +13,8 @@
         "email": "Email",
         "message": "Messaggio",
         "close": "Chiudi",
-        "send": "Invia Mesaggio"
+        "send": "Invia Mesaggio",
+        "alert": "Messaggio inviato correttamente"
       }
     },
     "footer": {

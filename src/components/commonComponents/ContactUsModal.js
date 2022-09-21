@@ -44,6 +44,7 @@ export default function ContactUsModal() {
       );
 
     setShowModal(false);
+    alert(t("homepage.navbar.contactUsModal.alert"));
   };
 
   return (
