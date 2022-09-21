@@ -1,3 +1,47 @@
 {
-  "title": "Well done"
+  "homepage": {
+    "navbar": {
+      "home": "Home",
+      "contactUs": "Contact Us",
+      "social": "Social",
+      "gallery": "Gallery",
+      "booking": "Book Now",
+
+      "contactUsModal": {
+        "title": "Please leave your message here and we will get back to you as soon as possible",
+        "name": "Your name",
+        "surname": "Your surname",
+        "email": "Your email",
+        "message": "Your message",
+        "close": "Close",
+        "send": "Send Message",
+        "alert": "Your message was sent successfully"
+      }
+    },
+    "hero": {
+      "title1": "About Us",
+      "title2": "what to do",
+      "title3": "Must-sees",
+      "title4": "Apartments",
+      "title5": "Animals & nature",
+      "text1": "The Fontanelle farmhouse offers all its clients splendid accomodations completed with kitchen and fireplace positioned on the imolesi hills at a few kilometres from Castel del Rio.",
+      "text2": "Holidays and Relax , Wine and food tours , contact with nature , Golf Canoeing and Mountain Bike , Festivals and Events.",
+      "text3": "Art , Medieval feasts , Local Crafts , The vein of gypsum.",
+      "text4": "From an ancient stone farmhouse four apartments are derived from 4 - 5 persons and , in the old barn adjacent to the house, two apartments for 2 persons.",
+      "text5": "Types of animals u can find here... Since we love animals, we accept them! We are on dogwelcome.it"
+    },
+    "footer": {
+      "contacts": "CONTACTS",
+      "legal": "LEGAL",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "map": "How to reach us",
+      "whatsapp": "Chat on WhatsApp"
+    }
+  },
+  "gallery": {
+    "pic1Description": "pic1Description",
+    "pic2Description": "pic2Description",
+    "pic3Description": "pic3Description"
+  }
 }

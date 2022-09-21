@@ -1,23 +1,22 @@
-import { useTranslation } from "react-i18next";
-import i18n from "./utilities/i18n";
+/* import { useTranslation } from "react-i18next"; */
+import { Route, Routes } from "react-router";
+import Gallery from "./components/gallery/Gallery";
+import Homepage from "./components/homepage/Homepage";
+
+/* import i18n from "./components/utilities/i18n"; */
 
 function App() {
-  const { t } = useTranslation();
+  /*   const { t } = useTranslation();
 
   function handleLanguage(event) {
     i18n.changeLanguage(event.target.value);
-  }
+  } */
 
   return (
-    <div>
-      <div>{t("title")}</div>;
-      <button onClick={handleLanguage} value={"en"}>
-        english
-      </button>
-      <button onClick={handleLanguage} value={"it"}>
-        italian
-      </button>
-    </div>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/gallery" element={<Gallery />} />
+    </Routes>
   );
 }
 
