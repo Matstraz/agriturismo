@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @import "~react-image-gallery/styles/css/image-gallery.css";
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.5;
+  color: rgb(226 232 240);
+}

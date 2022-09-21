@@ -4,7 +4,16 @@
       "home": "Home",
       "contactUs": "Contact Us",
       "social": "Social",
-      "gallery": "Gallery"
+      "gallery": "Gallery",
+      "contactUsModal": {
+        "title": "Please leave your message here and we will get back to you as soon as possible",
+        "name": "Your name",
+        "surname": "Your surname",
+        "email": "Your email",
+        "message": "Your message",
+        "close": "Close",
+        "send": "Send Message"
+      }
     },
     "footer": {
       "contacts": "CONTACTS",

@@ -8,11 +8,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComments } from "@fortawesome/free-solid-svg-icons";
 import styles from "../utilities/Animations";
 import { css } from "aphrodite";
+import ContactUsModal from "./ContactUsModal";
 
 const contactIcon = (
   <FontAwesomeIcon
     icon={faComments}
-    className={`${css(styles.tada)} text-slate-200 `}
+    className={`${css(styles.tada)} text-slate-200 ml-1`}
   />
 );
 
@@ -52,13 +53,8 @@ export default function MainNavbar() {
           </li>
           <li>
             <div>
-              <a
-                href="/contact"
-                title="contactUs"
-                className=" hover:text-slate-900 mr-1"
-              >
-                {t("homepage.navbar.contactUs")}
-              </a>
+              <ContactUsModal />
+
               {contactIcon}
             </div>
           </li>
@@ -152,13 +148,7 @@ export default function MainNavbar() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="/contact"
-                      title="contactUs"
-                      className=" hover:text-slate-900 border-b-2 border-slate-200"
-                    >
-                      {t("homepage.navbar.contactUs")}
-                    </a>
+                    <ContactUsModal />
                   </li>
                 </ul>
               </nav>
