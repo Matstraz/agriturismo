@@ -8,3 +8,9 @@ textarea::placeholder {
   opacity: 0.5;
   color: rgb(226 232 240);
 }
+
+.bgImg1 {
+  background-image: url("./assets/imgHero1.jpg");
+  background-size: cover;
+  background-position: center;
+}

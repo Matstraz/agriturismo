@@ -15,7 +15,7 @@ export default function MainFooter() {
 
   return (
     <div>
-      <footer className="p-4 bg-gradient-to-t from-slate-400 to-slate-700 border-t-2 border-slate-200 text-slate-200">
+      <footer className="p-4 bg-gradient-to-t from-slate-400 to-slate-800 border-t-2 border-slate-200 text-slate-200">
         <div className="flex justify-between lg:flex-row flex-col lg:items-center">
           <div className="">
             <img src={logo} className=" h-10" alt="logo" />

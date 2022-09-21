@@ -28,7 +28,7 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="bg-gradient-to-t from-slate-700 to-slate-400 text-slate-100">
+    <div className="bg-gradient-to-t from-slate-800 to-slate-400 text-slate-200">
       <MainNavbar />
       <div className="mt-5 border-2 border-white p-5 m-2">
         <ImageGallery items={images} />

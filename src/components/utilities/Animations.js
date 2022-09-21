@@ -1,9 +1,9 @@
 import { StyleSheet } from "aphrodite";
-import { fadeInRight, fadeInLeft, tada } from "react-animations";
+import { fadeInLeft, tada, fadeInUp } from "react-animations";
 
 const styles = StyleSheet.create({
-  fadeInRight: {
-    animationName: fadeInRight,
+  fadeInUp: {
+    animationName: fadeInUp,
     animationDuration: "1s",
   },
   fadeInLeft: {

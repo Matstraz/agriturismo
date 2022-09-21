@@ -5,7 +5,7 @@ import Hero from "./Hero";
 
 export default function Homepage() {
   return (
-    <div className="bg-black">
+    <div className="bg-slate-400">
       <MainNavbar />
       <CarouselHome />
       <Hero />
