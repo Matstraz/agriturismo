@@ -45,7 +45,7 @@ export default function MainFooter() {
                 </li>
                 <li className="mb-4 hover:text-gray-900">
                   <a href=".." className="hover:underline">
-                    {whatsappIcon} WhatsApp
+                    {whatsappIcon} {t("homepage.footer.whatsapp")}
                   </a>
                 </li>
                 <li className="hover:text-gray-900">
