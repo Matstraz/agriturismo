@@ -44,7 +44,10 @@ export default function MainFooter() {
                   </a>
                 </li>
                 <li className="mb-4 hover:text-gray-900">
-                  <a href=".." className="hover:underline">
+                  <a
+                    href="https://wa.me/393357815882?text=Salve%20,%20vorrei%20informazioni%20sulla%20disponibilità%20delle%20camere"
+                    className="hover:underline"
+                  >
                     {whatsappIcon} {t("homepage.footer.whatsapp")}
                   </a>
                 </li>
@@ -86,7 +89,11 @@ export default function MainFooter() {
             . All Rights Reserved.
           </span>
           <div className="flex space-x-6 sm:justify-center items-center mt-2 md:mt-0">
-            <a href=".." className=" hover:text-gray-900" id="social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100015597631622"
+              className=" hover:text-gray-900"
+              id="social"
+            >
               <svg
                 className="w-8 h-8"
                 fill="currentColor"
